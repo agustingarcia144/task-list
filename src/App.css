@@ -1,0 +1,56 @@
+body {
+  font-family: inter;
+  color: #ffffff;
+  background-color: #222222;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20%;
+}
+
+.header {
+  margin: auto;
+  margin-top: 20%;
+}
+
+button, input, li {
+  all: unset;
+}
+
+.task-input {
+  border-bottom-color: #ffffff;
+  border-bottom-style: solid;
+  margin-bottom: 20%;
+}
+
+.list-item {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
+}
+
+input.list.complete {
+  text-decoration: line-through;
+  color: #27CE37;
+}
+
+.button-add{
+  margin-left: 1rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.button-complete{
+  color: #27CE37;
+}
+
+
+.button-delete{
+  color: #FD5C5C;
+}
+
