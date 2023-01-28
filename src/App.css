@@ -35,7 +35,7 @@ button, input, li {
 }
 
 input.list.complete {
-  text-decoration: line-through;
+  text-decoration: line-through 2px;
   color: #27CE37;
 }
 
